@@ -1,4 +1,7 @@
 # GroupFCapstoneProject
 Source code of Our project
 
-Philip Augustine Naijan
+
+Group F
+
+-Aiswarya Anil(Team member)
