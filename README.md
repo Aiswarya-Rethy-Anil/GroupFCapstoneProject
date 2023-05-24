@@ -35,6 +35,6 @@ Project Features:
 -	Managing Recurring Expenses: Allow users to set up recurring expenses, such as monthly bills, for automated tracking.(Aqueena)
 -	Expense history:   Expense history with the ability to view, edit, or delete entries.(Aiswarya)
 -	Expense sorting:Sort expenses by date, category, or amount.(Sona)
--   Night Mode: Introduce a reading mode specifically designed for dark mode, optimizing the app's layout and typography for enhanced readability in low-light conditions.(Philip)
+-   Dark Mode: Introduce a reading mode specifically designed for dark mode, optimizing the app's layout and typography for enhanced readability in low-light conditions.(Philip)
 -   Theme Personalization: Provide users with options to personalize their dark mode experience, such as selecting different background images or patterns.(Philip)
 
