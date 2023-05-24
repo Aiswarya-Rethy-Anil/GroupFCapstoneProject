@@ -23,17 +23,15 @@ Project Features:
 
 -	Recording Expenses: Allow users to enter their expenses, including details like amount, date, and description, and categorize them accordingly.(Aiswarya)
 -	Support for Multiple Currencies: Enable users who travel or have expenses in different countries to work with various currencies.
--	Tracking Income: Allow users to monitor their income sources and add entries for income received.
+-	Tracking Income: Allow users to monitor their income sources and add entries for income received.(Philip)
 -	Analyzing Expenses: Generate visual reports and graphs to offer insights into spending patterns and trends.
 -	Budget Notifications: Send alerts to users when they approach or surpass their budget limits.(Sona)
 -	Splitting Expenses: Enable users to divide expenses among multiple participants, making it convenient for group activities or shared costs.
 -	Payment Method Monitoring: Track expenses based on the payment methods used, such as credit cards, cash, or digital wallets.
--	Expense Sharing: Facilitate the sharing of expense details with others, like roommates or partners, for collaborative expense tracking.
 -	Search and Filtering: Enable users to search and filter expenses based on various criteria like date range, category, or tags.
 -	Expense Notes: Provide the ability to add additional notes or tags to expense entries for better organization and reference.(Sona)
 -	Expense Reminders: Send reminders or notifications to prompt users to log their expenses regularly, including upcoming bill payments or important financial events.(Aiswarya)
 -	Expense Summation: Calculate the total expenses for a specific time period.(Aiswarya)
--	Income Tracking: Enable users to keep track of their income sources and add entries for the income received.
 -	Managing Recurring Expenses: Allow users to set up recurring expenses, such as monthly bills, for automated tracking.
 -	Expense history:   Expense history with the ability to view, edit, or delete entries.(Aiswarya)
 -	Expense sorting:Sort expenses by date, category, or amount.(Sona)
