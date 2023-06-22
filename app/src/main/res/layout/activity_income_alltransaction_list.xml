@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IncomeAlltransactionListActivity">
+    <Button
+        android:id="@+id/sortButton"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="Sorting Amount"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:layout_marginHorizontal="10dp"
+               android:orientation="horizontal">
+               <EditText
+                   android:layout_width="200dp"
+                   android:id="@+id/search"
+                   android:drawableStart="@drawable/ic_baseline_calendar_month_24"
+                   android:layout_height="wrap_content"
+                   android:layout_marginRight="8dp"
+                   android:hint="Search Date..."/>
+
+               <Spinner
+                   android:id="@+id/filter"
+                   android:layout_width="86dp"
+                   android:layout_height="35dp"
+                   android:layout_marginRight="5dp"
+                   android:background="@color/purple_500"
+                   android:text="Filter"
+                   android:textStyle="bold" />
+               <ImageView
+                   android:layout_width="25dp"
+                   android:layout_height="25dp"
+                   android:id="@+id/arrow"
+                   android:src="@drawable/arrow"/>
+
+               </LinearLayout>
+
+
+
+
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:id="@+id/recycle">
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:id="@+id/pbar"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

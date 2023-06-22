@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IncomeAlltransactionListActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="30dp"-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            android:layout_marginRight="250dp"-->
+<!--            android:background="@color/blue"-->
+<!--            android:text="Category :"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="15dp" />-->
+
+<!--        <Spinner-->
+<!--            android:id="@+id/cat1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="150dp"-->
+<!--            android:layout_marginTop="50dp"-->
+
+<!--            android:layout_marginRight="30dp" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginHorizontal="10dp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="250dp"
+                android:id="@+id/search"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:hint="Search Date"/>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Filter"
+                android:id="@+id/filter"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:id="@+id/recycle1">
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:id="@+id/pbar1"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
