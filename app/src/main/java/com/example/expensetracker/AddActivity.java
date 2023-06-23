@@ -64,7 +64,7 @@ public class AddActivity extends AppCompatActivity {
     String sprice,sdate,sdiscription,spicture,sscategory,sspaymentmode,sstatus,smessage;
     String []scategory={"Select Category","Trip","Food","Hospital","Profits","Other"};
     String []spaymentmode={"Select paymentmode","Cash","Check","Bank Transfer","Googlepay"};
-    String url = config.baseurl+"addexpense.php";
+    String url = config.baseurl+"expense.php";
 
     private RequestQueue rQueue;
     private static ProgressDialog mProgressDialog;

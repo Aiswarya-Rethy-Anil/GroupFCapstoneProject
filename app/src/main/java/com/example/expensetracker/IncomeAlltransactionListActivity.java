@@ -109,7 +109,7 @@ public class IncomeAlltransactionListActivity extends AppCompatActivity {
                     //looping through existing elements
                     for (Incomealltransactionmodel  s: alltransactionmodelArrayList) {
                         //if the existing elements contains the search input
-                        if (s.getDate().toLowerCase().contains(text.toString().toLowerCase())) {
+                        if (s.getDiscription().toLowerCase().contains(text.toString().toLowerCase())) {
                             //adding the element to filtered list
                             filteredSongs.add(s);
                         }

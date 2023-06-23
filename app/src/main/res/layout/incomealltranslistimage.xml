@@ -95,7 +95,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/text04"
-                android:text="Discription:"
+                android:text="Description:"
                 android:layout_marginTop="140dp"
                 android:layout_marginRight="210dp"
                 android:layout_marginLeft="45dp"
